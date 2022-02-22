@@ -13,5 +13,10 @@
     "table_name": "repeaters",
     "table_type": "FINAL",
     "request": "SELECT DISTINCT customer_unique_id, customer_zip_code_prefix, customer_city, customer_state FROM customer WHERE customer_unique_id IN (SELECT customer_unique_id FROM repeaters_count_orders WHERE nb_orders > 1)"
+  },
+  {
+    "table_name": "nb_repeaters",
+    "table_type": "FINAL",
+    "request": "SELECT count(*) as nb_repeaters from repeaters"
   }
 ]
