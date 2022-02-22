@@ -1,0 +1,9 @@
+[
+{"Name":"order_id", "Type": "string", "IsPrimaryKey": true}
+, {"Name":"order_item_id", "Type": "int"}
+, {"Name":"product_id", "Type": "string"}
+, {"Name":"seller_id", "Type": "string"}
+, {"Name":"shipping_limit_date", "Type": "timestamp"}
+, {"Name":"price", "Type": "double"}
+, {"Name":"freight_value", "Type": "string"}
+]

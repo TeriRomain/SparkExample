@@ -1,0 +1,10 @@
+[
+{"Name":"order_id", "Type": "string", "IsPrimaryKey": true}
+, {"Name":"customer_id", "Type": "string"}
+, {"Name":"order_status", "Type": "string"}
+, {"Name":"order_purchase_timestamp", "Type": "string", "IsDateRef": true}
+, {"Name":"order_approved_at", "Type": "string"}
+, {"Name":"order_delivered_carrier_date", "Type": "string"}
+, {"Name":"order_delivered_customer_date", "Type": "string"}
+, {"Name":"order_estimated_delivery_date", "Type": "string"}
+]

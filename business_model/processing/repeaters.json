@@ -1,0 +1,12 @@
+[
+  {
+    "table_name": "orders_group_by_customers",
+    "table_type": "TMP",
+    "request": "SELECT customer_id, count(*) as nb_orders FROM orders GROUP BY customer_id ORDER BY nb_orders desc"
+  },
+  {
+    "table_name": "repeaters",
+    "table_type": "FINAL",
+    "request": "SELECT * from orders_group_by_customers WHERE nb_orders > 1"
+  }
+]

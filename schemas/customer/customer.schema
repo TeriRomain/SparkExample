@@ -1,0 +1,7 @@
+[
+{"Name":"customer_id", "Type": "string"}
+, {"Name":"customer_unique_id", "Type": "string", "IsPrimaryKey": true}
+, {"Name":"customer_zip_code_prefix", "Type": "string"}
+, {"Name":"customer_city", "Type": "string"}
+, {"Name":"customer_state", "Type": "string"}
+]

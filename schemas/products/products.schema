@@ -1,0 +1,13 @@
+[
+{"Name":"product_id", "Type": "string", "IsPrimaryKey": true}
+, {"Name":"product_category_name", "Type": "string"}
+, {"Name":"product_name_lenght", "Type": "string"}
+, {"Name":"product_description_lenght", "Type": "string"}
+, {"Name":"product_photos_qty", "Type": "string"}
+, {"Name":"product_weight_g", "Type": "string"}
+, {"Name":"product_length_cm", "Type": "string"}
+, {"Name":"product_height_cm", "Type": "string"}
+, {"Name":"product_width_cm", "Type": "string"}
+, {"Name":"product_category_name_english", "Type": "string"}
+]
+
