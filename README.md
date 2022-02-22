@@ -15,7 +15,7 @@ Centralize your projet and code in a Github repository and provide the url once 
 2. Each day we want to compute summary statistics by customers every day (spending, orders etc.)
 Create a Spark script to compute for a given day these summary statistics.
 3. Run that script over the necessary period to inject historic data. Then, identify the top customers
-4. How many customers are repeaters ?
+4. How many customers are repeaters ? 3255
 
 
 	[orders count by customers](https://github.com/TeriRomain/SparkExample/blob/main/warehouse/business/repeaters/repeaters_count_orders/part-00000-f8ddbf43-0754-452f-9430-9887e67f0177-c000.csv)
