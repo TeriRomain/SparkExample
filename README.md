@@ -18,10 +18,12 @@ Create a Spark script to compute for a given day these summary statistics.
 4. How many customers are repeaters ?
 
 
-	[orders count by customers](https://github.com/TeriRomain/SparkExample/blob/main/warehouse/business/repeaters/repeaters_count_orders/part-00000-5f5d9046-e1ae-4ea5-a433-8332f01b3aab-c000.csv)
+	[orders count by customers](https://github.com/TeriRomain/SparkExample/blob/main/warehouse/business/repeaters/repeaters_count_orders/part-00000-f8ddbf43-0754-452f-9430-9887e67f0177-c000.csv)
 	
 	
-	[link for repeaters customers information](https://github.com/TeriRomain/SparkExample/blob/main/warehouse/business/repeaters/repeaters/part-00000-b75a531d-8deb-4529-9e7b-069d99529753-c000.csv)
+	[link for repeaters customers information](https://github.com/TeriRomain/SparkExample/blob/main/warehouse/business/repeaters/repeaters/part-00000-6aa055dc-6fb5-42a3-8084-d9ecd498af6a-c000.csv)
+	
+	[repeater count](https://github.com/TeriRomain/SparkExample/blob/main/warehouse/business/repeaters/nb_repeaters/part-00000-2fe51cb1-a934-4466-9e17-73bb008a02b1-c000.csv)
 
 6. Optionnal : If you want to show more skills you have, add anything you find usefull :
 	- To automate this and make it run every day
